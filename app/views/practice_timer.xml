@@ -1,0 +1,43 @@
+<Alloy>
+	<Window id="win" navBarHidden="true">
+		<View id="vertical">
+			<View id="header">
+				<Label id="title">Practice Timer</Label>
+				<Require id="settings_back_btn" type="view" src="settings_back_btn" onClick="closeModal"/>
+			</View>
+			<Label id="description">The timer is adjustable to simulate special needs cases.</Label>
+			<Label id="page_title">Timer Settings</Label>
+			<TableView id="tv" height="235" style="Ti.UI.iPhone.TableViewStyle.GROUPED" backgroundColor="transparent" scrollable="false" onClick="handleTableViewClick">
+				<TableViewRow height="60" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+					<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+						<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<Label class="title">3 hours</Label>
+							<Label class="subtitle">Standard exam length</Label>
+						</View>
+					</View>
+				</TableViewRow>
+				<TableViewRow height="45" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+					<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+						<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<Label class="title">4 hours</Label>
+						</View>
+					</View>
+				</TableViewRow>
+				<TableViewRow height="45" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+					<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+						<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<Label class="title">5 hours</Label>
+						</View>
+					</View>
+				</TableViewRow>
+				<TableViewRow height="45" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+					<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+						<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<Label class="title">6 hours</Label>
+						</View>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</View>
+	</Window>
+</Alloy>

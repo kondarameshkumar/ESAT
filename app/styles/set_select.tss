@@ -1,0 +1,137 @@
+"Button": {
+        backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+                endPoint: { x: "0%", y:"100%"},
+        colors: [ 'rgba(255,255,255,0.25)', 'rgba(0,0,0,0.25)']
+    },
+    borderColor: "#205000",
+    borderWidth: 1,
+    backgroundColor: "#348300",
+    style: "Titanium.UI.iPhone.SystemButtonStyle.PLAIN"
+}
+".title": {
+        left: 0,
+        font: {fontSize: 16, fontFamily: "AvenirLTStd-Black"},
+        color: "#222222"
+}
+".title[formFactor=tablet]": {
+        left: 0,
+        font: {fontSize: 30, fontFamily: "AvenirLTStd-Black"},
+        color: "#222222"
+}
+".subtitle": {
+        left: 0,
+        font: {fontSize: 14, fontFamily: "AvenirLTStd-Roman"},
+        color: "#666666"
+}
+".subtitle[formFactor=tablet]": {
+        left: 0,
+        font: {fontSize: 25, fontFamily: "AvenirLTStd-Roman"},
+        color: "#666666"
+}
+"#scrollView": {
+        layout: "vertical",
+        top: 45,
+        bottom: 0
+}
+"#scrollView[formFactor=tablet]": {
+        layout: "vertical",
+        top: 80,
+        width: "100%",
+        height: "90%",
+        bottom: 0
+}
+"#overlay[formFactor=tablet]": {
+        backgroundColor: "black",
+        opacity: 0.47
+}
+"#modal[formFactor=tablet]": {
+        width: "100%",
+        height: "90%",
+        borderRadius: 5,
+        top:0,
+        backgroundColor: "#eeeeee"
+}
+"#modal[formFactor=handheld]": {
+        backgroundColor: "#f1f1f1"
+}
+"#vertical": {
+        
+}
+"#header": {
+        top: 0,
+        backgroundColor: "#1b4fb4"
+}
+"#header[formFactor=tablet]": {
+       // height: "13%"
+        height: 60,
+        backgroundColor: "#1b4fb4"
+       
+}
+
+"#header[formFactor=handheld]": {
+        height: 45
+}
+"#title": {
+        font: {fontSize: 21, fontFamily: "AvenirLTStd-Medium"},
+        color: "#fff"
+}
+"#title[formFactor=tablet]": {
+        font: {fontSize: 30, fontFamily: "AvenirLTStd-Medium"},
+        color: "#fff"
+}
+"#page_title": {
+        font: {fontSize: 16, fontFamily: "AvenirLTStd-Black"},
+        color: "#222222",
+        left: 10,
+        right: 10,
+        top: 10
+}
+"#page_title[formFactor=tablet]": {
+        font: {fontSize: 25, fontFamily: "AvenirLTStd-Black"},
+        color: "#222222",
+        left: 10,
+        right: 10,
+        top: 10
+}
+"#description": {
+        font: {fontSize: 14, fontFamily: "AvenirLTStd-Roman"},
+        color: "#222222",
+        left: 10,
+        right: 10,
+        top: 10
+}
+"#description[formFactor=tablet]": {
+        font: {fontSize: 25, fontFamily: "AvenirLTStd-Roman"},
+        color: "#222222",
+        left: 10,
+        right: 10,
+        top: 10
+}
+"#tv":
+{
+height:460	
+}
+"#tv[formFactor=tablet]":
+{
+	height:800,
+	width:600
+	
+}
+".tableviewrowheight1":
+{
+	height:60
+}
+".tableviewrowheight1[formFactor=tablet]":
+{
+	height:100
+}
+".tableviewrowheight2":
+{
+	height:45
+}
+".tableviewrowheight2[formFactor=tablet]":
+{
+	height:90
+}

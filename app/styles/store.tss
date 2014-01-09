@@ -1,0 +1,185 @@
+".container[formFactor=tablet]": {
+backgroundImage: "/images/pattern.png",
+backgroundRepeat: true
+}
+
+"#overlay[formFactor=tablet]": {
+	backgroundColor: "black",
+	opacity: 0.47
+}
+"#modal[formFactor=tablet]": {
+	width: "85%",
+	height: "90%",
+	borderRadius: 5,
+	backgroundColor: "#eeeeee",
+	layout: "vertical"
+}
+"#modal[formFactor=handheld]":{
+	width:"100%",
+	top:20,
+	backgroundColor: "#f1f1f1"
+	
+}
+"#header": {
+	top: 0,
+	backgroundColor: "#1b4fb4"
+}
+"#header[formFactor=tablet]": {
+	height: 60
+}
+"#header[formFactor=handheld]": {
+	height: 45
+}
+"#content_t": {
+	layout: "vertical",
+	height: 560
+}
+"#content_h[formFactor=handheld]": {
+	layout: "vertical",
+	height: "89.8%",
+	top:45
+}
+"#content_h[formFactor=tablet]": {
+	layout: "vertical",
+	height: "89.8%",
+	top:60,
+	borderRadius: 15
+}
+
+"#tb_container": {
+	top: 0,
+	backgroundColor: "white"
+}
+"#tb_container[formFactor=tablet]": {
+	height: 80
+}
+"#tb_container[formFactor=handheld]": {
+	height: 78
+}
+"#tb1": {
+	height:40,
+	width:300,
+	index:0
+}
+"TabbedBar": {
+	font: {fontSize: 16, fontFamily: "AvenirLTStd-Black"},
+	color: "#000"
+}
+".title[formFactor=tablet]": {
+	left: 0,
+	font: {fontSize: 25, fontFamily: "AvenirLTStd-Black"},
+	color: "#222222"
+}
+".title[formFactor=handheld]": {
+	left: 0,
+	font: {fontSize: 18, fontFamily: "AvenirLTStd-Black"},
+	color: "#222222"
+}
+".subtitle[formFactor=tablet]": {
+	left: 0,
+	font: {fontSize: 22, fontFamily: "AvenirLTStd-Roman"},
+	color: "#666666",
+	
+}
+".subtitle[formFactor=handheld]": {
+	left: 0,
+	font: {fontSize: 12, fontFamily: "AvenirLTStd-Roman"},
+	color: "#666666"
+}
+"#title[formFactor=tablet]": {
+	font: {fontSize:35, fontFamily: "AvenirLTStd-Medium"},
+	
+	color: "#fff"
+}
+"#title[formFactor=handheld]": {
+	font: {fontSize: 21, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff"
+}
+
+"#header_text": {
+	top: 20,
+	left:20,
+	width: 680,
+	font: {fontSize: 24, fontFamily: "AvenirLTStd-Black"},
+	color: "#000"
+}
+"#description_text": {
+	top:20,
+	left: 20,
+	width: 680,
+	font: {fontSize: 18, fontFamily: "AvenirLTStd-Roman"},
+	color: "#000"
+}
+"#divider": {
+	backgroundColor: "#444444",
+	height: 10
+}
+".sdivider": {
+	backgroundColor: "#e1e1e1",
+	height: 1,
+	width: "100%"
+}
+".svdivider": {
+	backgroundColor: "#e1e1e1",
+	width: 1,
+	height: "100%"
+}
+"#list_container": {
+	layout: "vertical",
+	top: 20,
+	left: 20,
+	width: 680,
+	height: 290,
+	borderRadius: 5,
+	backgroundColor: "white",
+	borderColor: "#cecece",
+	borderWidth: 1
+}
+".vertical": {
+	layout: "vertical",
+	width: "100%",
+	height: "100%"
+}
+".horizontal": {
+	layout: "horizontal",
+	width: "100%",
+	height: 69
+}
+".THeight[formFactor=tablet]":{
+	height:220
+	
+	
+}
+".THeight[formFactor=handheld]":{
+	height:112
+}
+".THeight1[formFactor=tablet]":{
+	height:220,
+	
+	
+}
+".THeight1[formFactor=handheld]":{
+	
+	height:80
+}
+".Tableview[formFactor=handheld]":
+{
+	height:264
+}
+".Tableview[formFactor=tablet]":
+{
+	height:500,
+	width:450
+}
+
+".img[formFactor=tablet]":
+{
+	height:50,
+	width:40
+}
+
+".curv[formFactor=tablet]":
+{
+	height:50,
+	width:40
+}

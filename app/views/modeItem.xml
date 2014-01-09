@@ -1,0 +1,5 @@
+<Alloy>
+	<ItemTemplate name="template">
+		<Label bindId="label" />
+	</ItemTemplate>
+</Alloy>

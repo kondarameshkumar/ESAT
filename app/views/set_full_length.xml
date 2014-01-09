@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="container_view" class="container">
+		<View id="button_container">
+			<View id="icon_container">
+				<ImageView id="icon" />
+			</View>
+			<View class="divider"></View>
+			<View class="btn_text">
+				<Label id="title" />
+				<Label id="description" />
+			</View>
+		</View>
+	</View>
+</Alloy>

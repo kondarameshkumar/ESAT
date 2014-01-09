@@ -1,0 +1,171 @@
+".background": {
+	backgroundImage: "/images/pattern.png",
+	backgroundRepeat: true
+}
+".container": {
+	backgroundColor: "#f1f1f1"
+}
+".container[formFactor=handheld]": {
+	width: "100%",	
+	top: 20
+}
+
+".container[formFactor=tablet]": {
+	width: "85%",
+	height: "90%",
+	borderRadius: 5
+}
+"#header": {
+	top:0,
+	backgroundColor: "#f4f4f4"
+}
+"#header[formFactor=tablet]": {
+	height: 80
+}
+"#header[formFactor=handheld]": {
+	height: 45
+}
+"#header[formFactor=handheld platform=ios]": {
+	
+}
+"#image[formFactor=tablet]": {
+	width: 120,
+	height: 75,
+	image: "/images/logo-csa-group.png"
+}
+"#image[formFactor=handheld]": {
+	image: "/images/logo-csa-group-handheld.png"
+}
+
+".drop_shadow[formFactor=tablet]": {
+	top: 80,
+	height: 1,
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+        colors: [ '#b9b9b9', '#e3e3e3']
+    }
+}
+".drop_shadow[formFactor=handheld]": {
+	top: 45,
+	height: 1,
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+        colors: [ '#b9b9b9', '#e3e3e3']
+    }
+}
+".divider[formFactor=handheld]": {
+bottom: 130,
+height: 1,
+backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+endPoint:   { x: "0%", y:"100%"},
+        colors: [ '#e3e3e3', '#cbcbcb']
+    }
+}
+".divider[formFactor=tablet]": {
+bottom: 205,
+height: 1,
+backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+endPoint:   { x: "0%", y:"100%"},
+        colors: [ '#e3e3e3', '#cbcbcb']
+     }
+
+}
+/* Dividers */
+".seperator-grey": {
+	backgroundColor:"#acacac",
+	width: 1,
+	height:"100%"
+}
+".seperator-white": {
+	backgroundColor:"#fff",
+	width: 1,
+	height:"100%"
+	
+}
+
+/* Content */
+"#content[formFactor=handheld]": {
+	left: 10,
+	right: 10,
+	top: 45,
+	bottom: 130
+}
+"#content[formFactor=tablet]": {
+	height: "73.8%",
+	left: 25,
+	right: 25,
+	top:75
+}
+"#start[formFactor=handheld]": {
+	layout: "vertical",
+	top: 10,
+	bottom: 10
+}
+"#start[formFactor=tablet]": {
+	layout: "vertical",
+	left: 10,
+	right: 10
+}
+"#in_progress_btns[formFactor=handheld]": {
+	layout: "vertical",
+	height: "76.5%"
+}
+"#in_progress_btns[formFactor=tablet]": {
+	layout: "vertical"
+}
+"#in_progress": {
+	layout: "vertical",
+	height: "100%"
+}
+"#instructions[formFactor=tablet]": {
+	height: "35.2%"	
+}
+"#instructions[formFactor=handheld]": {
+	height: "18.9%"
+}
+"#instructions_text_container": {
+	height: "66%",
+	width: "100%",
+	backgroundColor: "#fffbea",
+	borderRadius: 5,
+	borderColor: "#e0d4a2",
+	borderWidth: 1
+}
+"#instructions_text[formFactor=handheld]": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Black"},
+	color: "#927708"
+}
+"#instructions_text[formFactor=tablet]": {
+	font: {fontSize: 22, fontFamily: "AvenirLTStd-Black"},
+	color: "#927708"
+}
+/* Footer */
+"#footer[formFactor=handheld]": {
+	height: 130,
+	left: 10,
+	right: 10,
+	bottom: 0
+}
+"#footer[formFactor=tablet]": {
+	height: "22%",
+	left: 10,
+	right: 10,
+	bottom: 0
+}
+"#footer_vertical_align[formFactor=handheld]": {
+	layout: "vertical",
+	height: "84.6%"
+}
+"#footer_vertical_align[formFactor=tablet]": {
+	layout: "horizontal",
+	left: 10,
+	right: 10
+}

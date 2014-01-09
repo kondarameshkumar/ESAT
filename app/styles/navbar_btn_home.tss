@@ -1,0 +1,68 @@
+"Label": {
+	width: "auto",
+	height: "auto",
+	color: "#000",
+	touchEnabled: false
+}
+"Label[formFactor=tablet]": {
+	font: {fontSize: 18, fontFamily: "AvenirLTStd-Black"},
+	height: 19
+}
+"Label[formFactor=handheld]": {
+	font: {fontSize: 10, fontFamily: "AvenirLTStd-Black"},
+	height: 19
+}
+
+".container": {
+	height: "100%"
+}
+".container[formFactor=handheld]": {
+	width: "19.0625%"
+}
+".container[formFactor=tablet]": {
+	width: "12.272727272727%"
+}
+"#navbar_btn": {
+	height: "100%"
+}
+"#divider": {
+	width: 2,
+	height: "100%",
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+        colors: [ '#dcdcdc', '#fcfcfc']
+    }
+}
+".header_icon": {
+	//
+}
+".header_icon[formFactor=handheld platform=ios]": {
+	height: 35
+}
+".header_icon[formFactor=tablet platform=ios]": {
+	height: 60
+}
+"#label": {
+	bottom: 0
+}
+// "#label[formFactor=handheld platform=ios]": {
+	// height: 11
+// }
+// "#label[formFactor=tablet platform=ios]": {
+	// height: 19
+// }
+"#image_view": {
+	top: 0
+}
+"#image_view[formFactor=handheld platform=ios]": {
+	height: 20
+}
+"#image_view[formFactor=tablet platform=ios]": {
+	height: 40,
+	width:30
+	
+	
+	
+}

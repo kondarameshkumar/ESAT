@@ -1,0 +1,153 @@
+"#overlay[formFactor=tablet]": {
+	backgroundColor: "black",
+	opacity: 0.47
+}
+"#main[formFactor=tablet]":{
+	backgroundColor:"black"
+}
+"#main[formFactor=handheld]":{
+	backgroundColor:"black"
+}
+
+"#modal[formFactor=tablet]": {
+	width: "93%",
+	height: "93%",
+	borderRadius: 5,
+	backgroundColor: "white"
+}
+"#modal[formFactor=handheld]":{
+	width:"100%",
+	backgroundColor: "white"
+	
+}
+".container":
+{
+	top:20,
+	backgroundColor: "black"
+}
+"#header": {
+	top: 0,
+	backgroundColor: "#1b4fb4"
+}
+"#header[formFactor=tablet]": {
+	height: 60
+}
+"#header[formFactor=handheld]": {
+	height: 45
+}
+"#title": {
+	font: {fontSize: 21, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff"
+}
+"#title[formFactor=tablet]": {
+	font: {fontSize: 30, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff"
+}
+"Label[formFactor=handheld]": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Roman"},
+	color: "#222222"
+}
+"Label[formFactor=tablet]": {
+	font: {fontSize: 20, fontFamily: "AvenirLTStd-Roman"},
+	color: "#222222"
+}
+"#score": {
+	font: {fontSize: 30, fontFamily: "AvenirLTStd-Black"},
+	color: "#fff"
+}
+"#score[formFactor=tablet]": {
+	font: {fontSize: 45, fontFamily: "AvenirLTStd-Black"},
+	color: "#fff"
+}
+'#type': {
+	left:"10",
+	 top:"65",
+	color: "#666666"
+}
+'#type[formFactor=tablet]': {
+	left:"10",
+	top:"100",
+	color: "#666666"
+}
+'#date': {
+	right:"10",
+	top:"65",
+	color: "#666666"
+}
+'#date[formFactor=tablet]': {
+	right:"10",
+	top:"100",
+	color: "#666666"
+}
+
+'.line[formFactor=tablet]':
+{
+	left:"10" ,
+	right:"10",
+     top:"140",
+}
+'.line[formFactor=handheld]':
+{
+	left:"10" ,
+	right:"10",
+    top:"95",
+}
+
+'.showview[formFactor=tablet]':
+{
+	left:"20",
+	 width:"255",
+	  height:"155",
+	   top:"160"
+}
+'.showview[formFactor=handheld]':
+{
+	left:"10",
+	 width:"145",
+	  height:"80",
+	   top:"105"
+}
+"#scoreLbl": {
+	color: "fff"
+}
+"#scoreLbl[formFactor=tablet]": {
+	
+	font: {fontSize: 22, fontFamily: "AvenirLTStd-Roman"},
+	color: "fff"
+}
+"#feedbackStatement[formFactor=handheld]": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Black"},
+	color: "#c91414",
+	top:"105",
+	left:"165"
+}
+"#feedbackStatement[formFactor=tablet]": {
+	font: {fontSize: 25, fontFamily: "AvenirLTStd-Black"},
+	color: "#c91414",
+	top:"160",
+	left:"300"
+}
+
+"#generalFeedback[formFactor=handheld]": {
+	
+	top:"125",
+	 left:"165",
+	  width:"150"
+}
+"#generalFeedback[formFactor=tablet]": {
+	font: {fontSize: 22, fontFamily: "AvenirLTStd-Roman"},
+	 top:"200",
+	  left:"300", 
+	  width:"250"
+}
+"#bg[formFactor=handheld]": {
+	
+	top:"25",
+	 bottom:"5"
+}
+"#bg[formFactor=tablet]": {
+	
+	 top:"45",
+	 bottom:"10"
+}
+

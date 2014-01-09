@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="btn">
+		<View id="button_container" onTouchstart="handleBtnTouchStart" onTouchend="handleBtnTouchEnd" onTouchmove="handleBtnTouchMove" onTouchcancel="handleBtnTouchCancel">
+			<View id="icon_container">
+				<ImageView id="icon" />
+			</View>
+			<View class="divider"></View>
+			<Label id="title" />
+		</View>
+		<ImageView id="arrow" image="/images/arrow.png" />
+	</View>
+</Alloy>

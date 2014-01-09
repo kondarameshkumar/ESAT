@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="container" width="100%" height="100%">
+		<ActivityIndicator id="ai" />
+	</View>
+</Alloy>

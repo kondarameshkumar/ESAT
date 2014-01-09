@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="btn" onTouchstart="handleBtnTouchStart" onTouchend="handleBtnTouchEnd" onTouchmove="handleBtnTouchMove" onTouchcancel="handleBtnTouchCancel">
+		<Label id="done_label">Done</Label>
+	</View>
+</Alloy>

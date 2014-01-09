@@ -1,0 +1,22 @@
+"#btn": {
+	height: 41,
+	width: 80,
+	left: 5,
+	backgroundImage: "/images/back-settings.png"
+}
+"#btn[formFactor=tablet]": {
+	height: 55,
+	width: 120,
+	left: 5,
+	backgroundImage: "/images/back-settings.png"
+}
+"#done_label": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+"#done_label[formFactor=tablet]": {
+	font: {fontSize: 25, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}

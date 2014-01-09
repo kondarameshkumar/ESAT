@@ -1,0 +1,15 @@
+<Alloy>
+	<Model src="user">
+	<View class="container">
+		<View id="overlay" />
+		<View id="modal">
+			<View id="vertical">
+				<View id="header">
+					<Label id="title">Diagram</Label>
+					<Require id="done_btn" type="view" src="done_btn" onClick="closeModal"/>
+				</View>
+			</View>
+			<ImageView id="iv" top="55" left="10" right="10" bottom="10" />
+		</View>
+	</View>
+</Alloy>

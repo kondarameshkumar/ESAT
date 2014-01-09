@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="win" navBarHidden="true" >
+		<View id="vertical">
+			<View id="header">
+				<Label id="title">Block D</Label>
+				<Require id="done_btn" type="view" src="done_btn" onClick="closeModal"/>
+			</View>
+			<ScrollView id="scrollView" showVerticalScrollIndicator="true">
+				<Label id="page_title">Motors and Control Systems :</Label>
+    			<View id="horizontal">
+					<Label id="description">The Canadian Electrician C of Q (Certificate of Qualification) Practice Tool is based on the 2012 Canadian Electrical Code and the 2011 Red Seal National Occupational Analysis.\n\nProviding adequate training to employees is a critical element of risk management and can help promote health & safety on the job. Each year, many organizations in Canada make significant investments in providing safety training to workers yet often have difficulty ensuring that it meets their needs.
+						To help organizations invest limited training resources effectively, CSA Z1001 Occupational Health and Safety Training, provides the essentials of managing a health and safety training program and a method to recognize OHS training practices. The standard helps organizations identify their training needs, set their requirements and select training products and services that will effectively meet their requirements. It also helps organizations work with training providers to ensure that OHS training courses are designed, developed, and delivered with appropriate input and expertise.
+						Z1001 is part of CSA Group's portfolio of OHS Management Systems Standards, based on the foundation established by Z1000 Occupational Health and Safety Management.
+
+Highlights of Z1001 Include:
+
+    					Requirements for management and administration of OHS training and guidance on identifying OHS training needs
+    					Guidance on developing, implementing and maintaining appropriate OHS training program and courses
+    					Guidance on selecting training providers with appropriate qualifications
+    					Informative Annexes on how to implement the requirements of the standard
+    					Valuable samples of a training matrix, course evaluation form, and training assessment surveys.
+					</Label>
+				</View>
+			</ScrollView>
+		</View>
+	</Window>
+</Alloy>

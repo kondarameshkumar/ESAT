@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="container">
+		<View id="button_container" onTouchstart="handleBtnTouchStart" onTouchend="handleBtnTouchEnd" onTouchmove="handleBtnTouchMove" onTouchcancel="handleBtnTouchCancel">
+			<View class="icon_container">
+				<ImageView id="icon" />
+			</View>
+			<View class="btn_text">
+				<Label id="title" />
+				<Label id="description" />
+			</View>
+		</View>
+	</View>
+</Alloy>

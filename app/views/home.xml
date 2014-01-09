@@ -1,0 +1,53 @@
+<Alloy>
+	<Window  >
+		
+		<NavigationGroup id="nav">
+			<Window class="background" navBarHidden="true">
+				<View class="container">
+					
+					<View id="header">
+						<Require id="about" type="view" src="navbar_btn_home" text="About" image="icon-info" position="left" onClick="openAbout" />
+						<ImageView id="image" />
+						<Require id="settings_btn_view" type="view" src="navbar_btn_home" text="Settings" image="icon-gears" position="right" onClick="openSettings" />
+					</View>
+					<View class="drop_shadow" />
+					<View id="content">
+						<View id="in_progress" visible="false">
+							<View id="instructions">
+								<View id="instructions_text_container">
+									<Label id="instructions_text" text="EXAM IN PROGRESS" />
+								</View>
+							</View>
+							<View id="in_progress_btns">
+								<Require type="view" src="in_progress_btn" id="continue_btn" title="Continue Exam" description="" image="icon-play" order="1" onClick="continueExam" />
+								<Require type="view" src="discard_btn" id="discard_btn" title="Discard current exam" description="Progress will be lost, but you\nwill be able to start a new exam" image="icon-discard" order="2" onClick="discardExam" />
+							</View>
+						</View>
+						<View id="start">
+							<Require type="view" src="mode_btn" id="study_btn" title="Study Mode" description="• Focus on specific subjects\n• Receive instant feedback" image="icon-lightbulb" order="1" onClick="openStudySettings" />
+							<Require type="view" src="mode_btn" id="practice_btn" 
+								title="Practice Mode" description="• 100 random questions\n• Adjustable timer" 
+								disabledDescription="You need to purchase at least one subject matter block to unlock this."
+								image="icon-clock" order="2" onClick="openPracticeSettings" />
+						</View>
+					</View>
+					
+					<View class="divider" />
+					<View id="footer">
+						<View id="footer_vertical_align">
+							<Require type="view" src="footer_btn"  id="past_results_btn" color="#528d04" title="View past result" description="Last Exam: No exams taken yet" image="/images/icon-results.png" order="1" onClick="openPastResults" />
+							<Require type="view" src="footer_btn" id="more_questions_btn" color="#1855bc" title="Get more questions" description="You own 2/6 subject blocks" image="/images/icon-book.png" order="2" onClick="openStore" />
+						</View>
+					</View>
+				</View>
+				
+				<OptionDialog id="dialog" title="Are you sure?" destructive="0" onClick="handleDiscardClick">
+		            <Options>
+		                <Option>Yes</Option>
+		                <Option>No</Option>
+		            </Options>
+		        </OptionDialog>
+			</Window>
+		</NavigationGroup>
+	</Window>
+</Alloy>

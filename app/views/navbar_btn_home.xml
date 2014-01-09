@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="btn" class="container">
+		<View id="divider"></View>
+		<View onTouchstart="handleBtnTouchStart" onTouchend="handleBtnTouchEnd" onTouchmove="handleBtnTouchMove" onTouchcancel="handleBtnTouchCancel" id="navbar_btn">
+			<View class="header_btn">
+				<View class="header_icon">
+					<ImageView id="image_view" />
+					<Label id="label" class="icon_label" />
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

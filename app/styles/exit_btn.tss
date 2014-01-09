@@ -1,0 +1,23 @@
+"#btn[formFactor=tablet]": {
+	height: 60,
+	width: 110,
+	left: 5,
+	backgroundImage: "/images/exit.png"
+}
+
+"#btn[formFactor=handheld]": {
+	height: 40,
+	width: 65,
+	left: 5,
+	backgroundImage: "/images/exit.png"
+}
+"#done_label[formFactor=tablet]": {
+	font: {fontSize: 25, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+"#done_label[formFactor=handheld]": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}

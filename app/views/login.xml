@@ -1,0 +1,43 @@
+<Alloy>
+	<Window class="container" onClick="handleClick" onOpen="animateLogo">
+		<View id="login_view">
+			<ImageView id="logo" />
+			<View id="form">
+				<TableView id="login_table_view" class="table">
+	                <TableViewRow id="email_row" class="table_row">
+	                	<View id="email_fix">
+	                		<TextField id="email" hintText="Email" autocorrect="false" onFocus="handleFocus" onBlur="handleBlur" onReturn="focusPassword" onChange="checkTextField" />
+	                	</View>
+	                </TableViewRow>
+	                <TableViewRow id="password_row" class="table_row">
+	                	<View id="password_fix">
+	                		<TextField id="password" hintText="Password" passwordMask="true" onFocus="handleFocus" onBlur="handleBlur" onReturn="attemptLogin" onChange="checkTextField" />
+	                	</View>
+	                </TableViewRow>
+	        	</TableView>
+	       		<!--<ListView id="login_table_view" class="table">
+					<Templates>
+						<ItemTemplate name="email_template">
+							<TextField bindId="email" hintText="Email" onFocus="handleFocus" onBlur="handleBlur" onReturn="focusPassword" onChange="checkTextField" onPostlayout="handlePostLayout" />
+						</ItemTemplate>
+						<ItemTemplate name="password_template">
+							<TextField bindId="password" hintText="Password" passwordMask="true" onFocus="handleFocus" onBlur="handleBlur" onReturn="attemptLogin" onChange="checkTextField" onPostlayout="handlePostLayout" />
+						</ItemTemplate>
+					</Templates>
+					<ListSection id="section">
+						<ListItem id="email_row" class="table_row" template="email_template" email:id="emailTextField"/>
+						<ListItem id="password_row" class="table_row" template="password_template" password:id="passwordTextField"/>
+					</ListSection>
+				</ListView>
+			-->
+        		<View id="login_btn_view" class="login_btn_style">
+        			<Button id="login_btn" class="login_btn_style" title="Log In" onClick="attemptLogin"/>
+        			<ActivityIndicator id="activityIndicator"></ActivityIndicator>
+        		</View>
+        	</View>
+		</View>
+		<View id="footer">
+			<Button id="sign_up_btn" onClick="SignUp" title="Sign Up for Free" />
+		</View>
+	</Window>
+</Alloy>

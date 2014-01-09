@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="btn1" onTouchstart="handleBtnTouchStart" onTouchend="handleBtnTouchEnd" onTouchmove="handleBtnTouchMove" onTouchcancel="handleBtnTouchCancel">
+		<Label id="done_label1">Question Packs</Label>
+	</View>
+</Alloy>

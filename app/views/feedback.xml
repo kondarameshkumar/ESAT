@@ -1,0 +1,19 @@
+<Alloy>
+	<Model src="user">
+	<View class="container">
+		<View id="overlay" />
+		<View id="modal">
+			<View id="vertical">
+				<View id="header">
+					<Label id="title">Feedback</Label>
+					<Require id="done_btn" type="view" src="done_btn" onClick="closeModal"/>
+				</View>
+				<ScrollView id="scrollView" showVerticalScrollIndicator="true">
+					<View id="horizontal">
+						<Label id="feedback_txt" />
+					</View>
+				</ScrollView>
+			</View>
+		</View>
+	</View>
+</Alloy>

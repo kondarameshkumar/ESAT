@@ -1,0 +1,134 @@
+"Window[formFactor=tablet]": {
+	orientationModes: [
+        Ti.UI.LANDSCAPE_LEFT,
+        Ti.UI.LANDSCAPE_RIGHT,
+        Ti.UI.PORTRAIT,
+        Ti.UI.UPSIDE_PORTRAIT
+    ]
+}
+"Window[formFactor=handheld]": {
+	orientationModes: [
+        Ti.UI.PORTRAIT
+    ]
+}
+"TextField": {
+	left:10,
+    height: Ti.UI.SIZE,
+    clearButtonMode: true,
+    textAlign: 'left',
+    touchEnabled: true,
+    autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+    enableReturnKey:true
+}
+"TextField[formFactor=tablet]": {
+	width: 390
+}
+"TextField[formFactor=handheld]": {
+	width: 260
+}
+"#email_fix": {
+	height: 42
+}
+"#email_fix[formFactor=tablet]": {
+	width: 410
+}
+"#email_fix[formFactor=handheld]": {
+	width: 280
+}
+"#password_fix": {
+	height: 42
+}
+"#password_fix[formFactor=tablet]": {
+	width: 410
+}
+"#password_fix[formFactor=handheld]": {
+	width: 280
+}
+".container": {
+	backgroundColor: '#cfcfcf',
+	backgroundGradient: {
+        type: 'radial',
+        colors: [ 'rgba(255,255,255,0)', '#fff'],
+        startRadius: '75%',
+        endRadius: 0
+    }
+}
+"#activityIndicator": {
+	right: 20
+}
+"#activityIndicator[platform=ios]": {
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.DARK
+}
+"#logo[formFactor=handheld]": {
+	width: 145,
+	height: 75,
+	image: "/images/login-logo-phone.png",
+	touchEnabled: false
+}
+"#logo[formFactor=tablet]": {
+	width: 224,
+	height: 115,
+	image: "/images/login-logo-tablet.png",
+	touchEnabled: false
+}
+".table": {
+	rowHeight: 42,
+	backgroundColor:"transparent",
+	rowBackgroundColor:'white',
+    scrollable: false
+}
+".table[formFactor=tablet]": {
+	height: 130,
+	width: 470
+}
+".table[formFactor=handheld]": {
+	height: 115,
+	width: 300
+}
+".table_row": {
+	height: 42
+    //touchEnabled: true
+}
+".table[platform=ios]": { 
+    style:Titanium.UI.iPhone.TableViewStyle.GROUPED
+    //style:Titanium.UI.iPhone.ListViewStyle.GROUPED
+}
+".table_row[platform=ios]": {
+	selectionStyle: Ti.UI.iPhone.TableViewCellSelectionStyle.NONE 
+    //selectionStyle: Ti.UI.iPhone.ListViewCellSelectionStyle.NONE 
+}
+"#form": {
+	layout: "vertical",
+	opacity: 0
+}
+"#email": {
+	keyboardType: Titanium.UI.KEYBOARD_EMAIL,
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT
+}
+"#password": {
+	returnKeyType: Titanium.UI.RETURNKEY_GO
+}
+"Button": {
+	height: 42
+}
+"#sign_up_btn": {
+	width: 158
+}
+"#login_btn": {
+	enabled: false
+}
+
+".login_btn_style[formFactor=tablet]": {
+	width: 410
+}
+".login_btn_style[formFactor=handheld]": {
+	width: 280
+}
+"#login_view": {
+	layout: "vertical"
+}
+"#footer": {
+	height: "90",
+	bottom: "0",
+	opacity: 0
+}

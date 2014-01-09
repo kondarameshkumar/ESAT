@@ -1,0 +1,22 @@
+".container[formFactor=tablet]": {
+	width: "49.9%",
+	height: 69
+}
+"#block_label[formFactor=tablet]": {
+	left: 10,
+	top: 10,
+	font: {fontSize: 12, fontFamily: "AvenirLTStd-Black"},
+	color: "#888888"
+}
+"#title_container[formFactor=tablet]": {
+	left:10,
+	top: 27,
+	heigth: 32
+}
+"#title_label[formFactor=tablet]": {
+	font: {fontSize: 16, fontFamily: "AvenirLTStd-Black"},
+	color: "#222222",
+	width: 200,
+	left: 0,
+	top: 0
+}

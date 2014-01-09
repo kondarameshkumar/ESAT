@@ -1,0 +1,70 @@
+".container": {
+	backgroundImage: "/images/pattern.png",
+	backgroundRepeat: true
+}
+"Label": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Medium"},
+	color: "#252525"
+}
+
+"#overlay[formFactor=tablet]": {
+	backgroundColor: "black",
+	opacity: 0.47
+}
+"#modal[formFactor=tablet]": {
+	width: "85%",
+	height: "80%",
+	borderRadius: 5,
+	top:20,
+	backgroundColor: "black"
+}
+"#modal[formFactor=handheld]":{
+	width:"100%",
+	top :20	
+}
+"#header": {
+	top: 0,
+	backgroundColor: "#1b4fb4"
+}
+"#header[formFactor=tablet]": {
+	height: 60
+}
+"#header[formFactor=handheld]": {
+	height: 45
+}
+
+"#vertical": {
+	layout: "vertical"
+}
+"#title": {
+	font: {fontSize: 21, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff"
+}
+"#title[formFactor=tablet]": {
+	font: {fontSize: 30, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff"
+}
+"#grad[formFactor=tablet]": {
+	height:"15"
+}
+"#grad[formFactor=handheld]": {
+	height:"25"
+}
+"#greenbar[formFactor=tablet]": {
+	height:"15"
+}
+"#greenbar[formFactor=handheld]": {
+	height:"25"
+}
+"#gradT[formFactor=tablet]": {
+	height:"15"
+}
+"#gradT[formFactor=handheld]": {
+	height:"25"
+}
+"#greenbarT[formFactor=tablet]": {
+	height:"15"
+}
+"#greenbarT[formFactor=handheld]": {
+	height:"25"
+}

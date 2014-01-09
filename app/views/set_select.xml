@@ -1,0 +1,79 @@
+<Alloy>
+        <Window id="modal" navBarHidden="true">
+                <View id="vertical">
+                        <View id="header">
+                                <Label id="title">Question Set</Label>
+                                <Require id="settings_back_btn" type="view" src="settings_back_btn" onClick="closeModal"/>
+                        </View>
+                        <ScrollView id="scrollView" showVerticalScrollIndicator="true">
+                        <Label id="description">Choose where your questions will come from.\n\nThe starter and full sets have questions from every topic. You can also choose to study just one subject if you’ve purchased it.</Label>
+                        <Label id="page_title">Question Sets</Label>
+                        <TableView id="tv"  style="Ti.UI.iPhone.TableViewStyle.GROUPED" backgroundColor="transparent" scrollable="false" onClick="handleTableViewClick">
+                                <TableViewSection>
+                                        <TableViewRow class="tableviewrowheight1"   touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Starter Set</Label>
+                                                                <Label class="subtitle">A sample set from every subject</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                        <TableViewRow class="tableviewrowheight1" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Full Set</Label>
+                                                                <Label class="subtitle">All the blocks at a discount</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                </TableViewSection>
+                                <TableViewSection>                                
+                                        <TableViewRow class="tableviewrowheight2" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Block A</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                        <TableViewRow class="tableviewrowheight2" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Block B</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                        <TableViewRow class="tableviewrowheight2" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Block C</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                        <TableViewRow class="tableviewrowheight2" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Block D</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                        <TableViewRow class="tableviewrowheight2" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Block E</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                        <TableViewRow class="tableviewrowheight2" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.GRAY">
+                                                <View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                        <View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+                                                                <Label class="title">Block F</Label>
+                                                        </View>
+                                                </View>
+                                        </TableViewRow>
+                                </TableViewSection>
+                        </TableView>
+                        </ScrollView>
+                </View>
+        </Window>
+</Alloy>
+

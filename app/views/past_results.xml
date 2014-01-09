@@ -1,0 +1,25 @@
+<Alloy>
+	<View id="main" >
+        <View class="container" >
+                <View id="overlay" />
+                <View id="modal">
+                        <View id="header">
+                                <Label id="title">Past Result</Label>
+                                <Require id="done_btn" type="view" src="done_btn" onClick="closeModal"/>
+                        </View>
+                        <Label id="type"  />
+                        <Label id="date"  textAlign="right" />
+                        <Label id="feedbackStatement"  />
+                        <Label id="generalFeedback"  />
+                        <View class="line"  height="1" backgroundColor="#b5b5b5" />
+                        <View class="showview"  backgroundColor="#383838" borderRadius="5">
+                                <Label id="scoreLbl" top="5">Your Score</Label>
+                                <View id="bg"  left="5" right="5" borderRadius="5" backgroundColor="#149c0a">
+                                        <Label id="score" />
+                                </View>
+                        </View>
+                </View>
+        </View>
+      </View>        
+</Alloy>
+

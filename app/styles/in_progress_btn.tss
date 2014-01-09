@@ -1,0 +1,69 @@
+".container": {
+
+}
+".container[formFactor=tablet]": {
+	height: "50%",
+	top: 0
+}
+".container[formFactor=handheld]": {
+	height: "50%"
+}
+"#button_container": {
+	layout: "horizontal",
+	borderRadius: 5,
+	borderColor: "#cecece",
+	borderWidth: 1
+}
+"#button_container[formFactor=tablet]": {
+	width: "100%",
+	top: 0,
+	height: "89%"
+}
+"#button_container[formFactor=handheld]": {
+	width: "100%",
+	height: "93%"
+}
+"#icon_container": {
+	width: "20%",
+	height: "100%"
+}
+".divider": {
+	width: 1,
+	height: "100%",
+	backgroundColor: "rgba(0,0,0,0.10)"
+}
+".btn_text": {
+	left: 10
+}
+".btn_text[formFactor=tablet]": {
+	height: 80
+}
+".btn_text[formFactor=handheld]": {
+	height: 53
+}
+"#title": {
+	left: 0,
+	top: 0
+}
+"#title[formFactor=tablet]": {
+	font: {fontSize: 25, fontFamily: "AvenirLTStd-Black"},
+	height: 30,
+	bottom:25
+}
+"#title[formFactor=handheld]": {
+	font: {fontSize: 16, fontFamily: "AvenirLTStd-Black"},
+	height: 16
+}
+"#description": {
+	color: "#666666",
+	left: 0,
+	bottom: 0
+}
+"#description[formFactor=tablet]": {
+	font: {fontSize: 18, fontFamily: "AvenirLTStd-Roman"},
+	height: 50
+}
+"#description[formFactor=handheld]": {
+	font: {fontSize: 12, fontFamily: "AvenirLTStd-Roman"},
+	height: 30
+}

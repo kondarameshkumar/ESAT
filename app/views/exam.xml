@@ -1,0 +1,37 @@
+<Alloy>
+	<Window id="win" navBarHidden="true" backgroundColor="black"  onClose="handleClose">
+		<View class="container">
+			<View id="overlay" />
+			<View id="modal">
+				<View id="vertical">
+					<View id="header">
+						<Label id="title">Exam</Label>
+						<Require id="exit_btn" type="view" src="exit_btn" onClick="closeModal"/>
+					</View>
+					<View  height="45" backgroundColor="#f4f4f4">
+						<View id="noTimer" width="100%">
+							<View width="40"  left="0"><Label id="prog">0</Label></View>
+							<View left="40" right="40">
+								<View id="grad"  left="0" right="0" borderRadius="5" backgroundColor="#dadada"></View>
+								<View id="greenbar"  left="0" width="0" borderRadius="5" backgroundColor="#549104"></View>
+							</View>
+							<View width="40"  right="0"><Label id="len">30</Label></View>
+						</View>
+						<View id="withTimer" width="100%" visible="false">
+							<View width="40" left="0"><Label id="progT">0</Label></View>
+							<View left="40" right="172">
+								<View id="gradT"  left="0" right="0" borderRadius="5" backgroundColor="#dadada"></View>
+								<View id="greenbarT"  left="0" width="0" borderRadius="5" backgroundColor="#549104"></View>
+							</View>
+							<View width="40" right="132"><Label id="lenT">30</Label></View>
+							<View width="132" right="0"><Label id="timeLeft" width="100%" textAlign="center">01:23:40s left</Label></View>
+						</View>
+					</View>
+					<ScrollableView id="sv" dataCollection="questions" dataFilter="filterFunction" onScrollEnd="handleScrollEnd">
+						<Require src="question_view"></Require>
+					</ScrollableView>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

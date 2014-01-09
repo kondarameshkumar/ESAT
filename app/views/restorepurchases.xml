@@ -1,0 +1,86 @@
+<Alloy>
+	<Window id="win" navBarHidden="true" >
+		<View id="vertical">
+			<View id="header">
+				<Label id="title">Restore Purchases</Label>
+				<Require id="done_btn" type="view" src="done_btn" onClick="closeModal"/>
+			</View>
+			<ScrollView id="scrollView" showVerticalScrollIndicator="true">
+				<Label id="page_title">Purchased Items List :</Label>
+  				<View id="horizontal">
+					<TableView id="tv"  style="Ti.UI.iPhone.TableViewStyle.GROUPED" backgroundColor="transparent" scrollable="false" >
+					<TableViewSection>
+						<TableViewRow id="tablerowheight" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.NONE">
+						<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+								<Label class="title">Full Set</Label>
+								<!--<Label class="subtitle">All the blocks at a discount</Label>-->
+							</View>
+						</View>
+						<!--<Require src="buy_btn" price="$16.99" id="b" productid="ca.csa.cepe.b" appleid="555028307" />-->
+					</TableViewRow>
+					<TableViewRow id="tablerowheight"  touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.NONE">
+						<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+								<Label class="title">Block A</Label>
+								<!--<Label class="subtitle">Occupational Skills</Label>-->
+							</View>
+						</View>
+						<!--<Require src="buy_btn" price="$16.99" id="a" productid="ca.csa.cepe.a" appleid="555028297" />-->
+					</TableViewRow>
+										<TableViewRow id="tablerowheight" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.NONE">
+						<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+								<Label class="title">Block B</Label>
+								<!--<Label class="subtitle">Systems, Distribution\nand Services</Label>-->
+							</View>
+						</View>
+						<!--<Require src="buy_btn" price="$16.99" id="b" productid="ca.csa.cepe.b" appleid="555028307" />-->
+					</TableViewRow>
+					
+					<TableViewRow id="tablerowheight" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.NONE">
+						<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+								<Label class="title">Block C</Label>
+								<!--<Label class="subtitle">Wiring Methods</Label>-->
+							</View>
+						</View>
+						<!--<Require src="buy_btn" price="$16.99" id="c" productid="ca.csa.cepe.c" appleid="555028920" />-->
+					</TableViewRow>
+						
+					<TableViewRow id="tablerowheight" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.NONE">
+						<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+								<Label class="title">Block D</Label>
+								<!--<Label class="subtitle">Motors and Control\nSystems</Label>-->
+							</View>
+						</View>
+					<!--<Require src="buy_btn" price="$16.99" id="d" productid="ca.csa.cepe.d" appleid="555028926" />-->
+					</TableViewRow>
+						
+					<TableViewRow id="tablerowheight" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.NONE">
+						<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+								<Label class="title">Block E</Label>
+								<!--<Label class="subtitle">Signalling and\nCommunication Systems</Label>-->
+							</View>
+						</View>
+						<!--<Require src="buy_btn" price="$16.99" id="e" productid="ca.csa.cepe.e" appleid="555030034" />-->
+					</TableViewRow>
+						
+					<TableViewRow id="tablerowheight" touchEnabled="false" backgroundColor="white" selectionStyle="Ti.UI.iPhone.TableViewCellSelectionStyle.NONE">
+						<View left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+							<View layout="vertical" width="Ti.UI.SIZE" height="Ti.UI.SIZE">
+								<Label class="title">Block F</Label>
+								<!--<Label class="subtitle">Upgrading, Service\nand Maintenance</Label>-->
+							</View>
+						</View>
+						<!--<Require src="buy_btn" price="$16.99" id="f" productid="ca.csa.cepe.f" appleid="555025982" />-->
+					</TableViewRow>
+					</TableViewSection>
+				</TableView>
+				</View>
+			</ScrollView>
+		</View>
+	</Window>
+</Alloy>

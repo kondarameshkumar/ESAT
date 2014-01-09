@@ -1,0 +1,39 @@
+<Alloy>
+	<View class="container">
+		<View id="overlay" />
+		<View id="modal">
+			<View id="vertical">
+				<NavigationGroup id="navgroup">
+           <Window navBarHidden="true">
+				<View id="header">
+					<Label id="title">About</Label>
+					<Require id="done_btn" type="view" src="done_btn" onClick="closeModal"/>
+				</View>
+				<ScrollView id="scrollView" showVerticalScrollIndicator="true">
+					<Label id="page_title">About the App</Label>
+					<View id="horizontal">
+						<View id="desc_endors">
+							<Label id="description">The Canadian Electrician C of Q (Certificate of Qualification) Practice Tool is based on the 2012 Canadian Electrical Code and the 2011 Red Seal National Occupational Analysis.</Label>
+							<View id="endors_container">
+								<ImageView id="endors_img"></ImageView>
+							</View>
+						</View>
+						<View id="btns">
+							<View id="how_to_use_btn">
+								<Require id="how_to_btn" src="about_list_btn" text="How to use the app" image="icon-question" onClick="handleHowTo"/>
+							</View>
+							<View id="grouped_btns">
+								<Require id="email_btn" src="about_list_btn" text="training@csagroup.org" image="icon-mail" onClick="handleEmail"/>
+								<View class="vdivider" />
+								<Require id="website_btn" src="about_list_btn" text="shop.csa.ca" image="icon-link" onClick="handleWebsite"/>
+							</View>
+						</View>
+					</View>
+					<Label id="version">Version 2.2.1</Label>
+				</ScrollView>
+				</Window>
+</NavigationGroup>
+			</View>
+		</View>
+	</View>
+</Alloy>

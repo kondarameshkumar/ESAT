@@ -1,0 +1,195 @@
+"Label": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Roman"},
+	color: "#222222"
+}
+"#num": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Medium"},
+	color: "#444444"
+}
+"#id": {
+	font: {fontSize: 13, fontFamily: "AvenirLTStd-Medium"},
+	color: "#a0a0a0"
+}
+"Label[formFactor=tablet]": {
+	font: {fontSize: 25, fontFamily: "AvenirLTStd-Roman"},
+	color: "#222222"
+}
+"#num[formFactor=tablet]": {
+	font: {fontSize: 25, fontFamily: "AvenirLTStd-Medium"},
+	color: "#444444"
+}
+"#id[formFactor=tablet]": {
+	font: {fontSize: 20, fontFamily: "AvenirLTStd-Medium"},
+	color: "#a0a0a0"
+}
+".buttonLabels": {
+	font: {fontSize: 12, fontFamily: "AvenirLTStd-Roman"}
+}
+".buttonLabels[formFactor=tablet]": {
+	font: {fontSize: 18, fontFamily: "AvenirLTStd-Roman"}
+}
+"#skip": {
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+        colors: [ 'rgba(250,250,250,0.20)', 'rgba(0,0,0,0.20)']
+    }
+}
+
+".greenbtn": {
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+        colors: [ 'rgba(250,250,250,0.20)', 'rgba(0,0,0,0.20)']
+    }
+}
+".boarder[formFactor=tablet]":{
+	top:"10",
+	 borderWidth:"10",
+	  backgroundColor:"black"
+	
+}
+".boarder[formFactor=handheld]":{
+	top:"10"
+}
+".height1[formFactor=handheld]":
+{
+	height:30
+}
+".height1[formFactor=tablet]":
+{
+	height:60
+}
+
+".imagedisplyhederheight[formFactor=handheld]":
+{
+	height:60
+}
+".imagedisplyhederheight[formFactor=tablet]":
+{
+	height:100
+}
+
+
+".rowspaceheight[formFactor=handheld]":
+{
+	height:10
+}
+".rowspaceheight[formFactor=tablet]":
+{
+	height:40
+}
+
+".imgdisplay[formFactor=tablet]":
+{
+	width:30,
+	height:30
+}
+"#skip[formFactor=handheld]":
+{
+	width:"137",
+	 height:"37"
+}
+"#skip[formFactor=tablet]":
+{
+	width:"160",
+	 height:"50"
+}
+"#submit[formFactor=handheld]":
+{
+	width:"137",
+	 height:"37"
+}
+"#submit[formFactor=tablet]":
+{
+	width:"160",
+	 height:"50"
+}
+"#prev[formFactor=handheld]":
+{
+	width:"137",
+	 height:"37"
+}
+"#prev[formFactor=tablet]":
+{
+	width:"160",
+	 height:"50"
+}
+"#next[formFactor=handheld]":
+{
+	width:"137",
+	 height:"37"
+}
+"#next[formFactor=tablet]":
+{
+	width:"160",
+	 height:"50"
+}
+".bottonview[formFactor=handheld]":
+{
+	height:"55"
+}
+".bottonview[formFactor=tablet]":
+{
+	height:"80"
+}
+
+"#audio_btn_img[formFactor=handheld]":
+{
+	
+	image:"/images/icon-play-tablet.png"
+}
+"#audio_btn_img[formFactor=tablet]":
+{
+	height:40,
+	width:40,
+	image:"/images/icon-play-tablet.png"
+}
+"#diagram_btn_img[formFactor=handheld]":
+{
+	
+	image:"/images/icon-diagram.png"
+}
+"#diagram_btn_img[formFactor=tablet]":
+{
+	height:40,
+	width:40,
+	image:"/images/icon-diagram.png"
+}
+"#feedback_btn_img[formFactor=handheld]":
+{
+	
+	image:"/images/icon-feedback.png"
+}
+"#feedback_btn_img[formFactor=tablet]":
+{
+	height:40,
+	width:40,
+	image:"/images/icon-feedback.png"
+}
+
+".labledisplay[formFactor=handheld]":
+{
+	
+	left:"30",
+	 right:"35"
+}
+".labledisplay[formFactor=tablet]":
+{
+	left:"45",
+	 right:"50"
+}
+
+"#card[formFactor=handheld]":
+{
+	
+	top:"10",
+	bottom:"10"
+}
+"#card[formFactor=tablet]":
+{
+	top:"30"
+	
+}

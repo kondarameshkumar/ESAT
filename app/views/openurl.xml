@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="win" navBarHidden="true" backgroundColor="black">
+		<View id="vertical" backgroundColor="white">
+			<NavigationGroup id="navgroup">
+           <Window navBarHidden="true">
+			<View id="header">
+				
+				<Require id="settings_back_btn" type="view" src="store_back_btn" onClick="closeModal"/>
+			</View>
+			<WebView id="webview">
+				
+			</WebView>
+			</Window>
+</NavigationGroup>
+		</View>
+	</Window>
+</Alloy>

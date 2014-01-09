@@ -1,0 +1,39 @@
+"#btn": {
+
+}
+"#btn[formFactor=tablet]": {
+	height: 55
+}
+"#btn[formFactor=handheld]": {
+	height: 55
+}
+"#button_container": {
+	layout: "horizontal",
+	backgroundColor: "#fafafa"
+}
+"#button_container[formFactor=tablet]": {
+	height: "100%"
+}
+"#button_container[formFactor=handheld]": {
+	height: "100%"
+}
+"#icon_container": {
+	backgroundColor: "#f5f5f5",
+	width: 60,
+	height: "100%",
+	top: 0
+}
+".divider": {
+	width: 1,
+	top: 0,
+	height: "100%",
+	backgroundColor: "rgba(0,0,0,0.10)"
+}
+"#title": {
+	left: 10,
+	height: 55,
+	font: {fontSize: 20, fontFamily: "AvenirLTStd-Black"}
+}
+"#arrow": {
+	right: 10
+}

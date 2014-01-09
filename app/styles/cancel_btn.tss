@@ -1,0 +1,29 @@
+"#btn": {
+	height: "77.8%",
+	left: "1.6%",
+	borderRadius: 5,
+	borderColor: "#0f2d69",
+	borderWidth: 1,
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+        colors: [ '#2c66ce', '#1a3e7c']
+    }
+}
+"#btn[formFactor=tablet]": {
+	width: "18.2%"
+}
+"#btn[formFactor=handheld]": {
+	width: "18.75%"
+}
+"#done_label": {
+	font: {fontSize: 14, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+"#done_label[formFactor=tablet]": {
+	font: {fontSize: 22, fontFamily: "AvenirLTStd-Medium"},
+	color: "#fff",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
